@@ -23,3 +23,4 @@ with open(inputFile,"rt") as fp:
 keylist = genreList.keys()
 for i in keylist:
 	f.write("%s %d\n" % (i, genreList[i]))
+f.close()
